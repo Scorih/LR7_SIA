@@ -1,0 +1,145 @@
+.profile-icon {
+    width: 64px;
+    height: 64px;
+    margin: 4px 16px;
+}
+
+.profile {
+    width: 64px;
+    height: 64px;
+}
+
+.back {
+    font-size: 48px;
+    margin: 4px 16px;
+}
+
+.headerText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    font-style: normal;
+    vertical-align: middle;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: #00ff00;
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #00ff00;
+}
+
+header .headerText h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+header .headerText p {
+    font-size: 1rem;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.mainContainer {
+    width: 90%;
+    max-width: 80%;
+    padding: 20px;
+    border: 2px solid #00ff00;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#gameDescription {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+button {
+    background-color: black;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    padding: 10px 20px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #00ff00;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-top: auto;
+}
+
+#actions,
+#nextContainerButton,
+#restartButtonContainer, 
+#restartButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#nextContainerButton, #restartButtonContainer {
+    display: none;
+}
+
+img {
+    width: 512px;
+    height: 512px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    #actions,
+    #nextContainerButton,
+    #restartButtonContainer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    img {
+        width: 256px;
+        height: 256px;
+    }
+
+    .profile {
+        width: 64px;
+        height: 64px;
+    }
+}

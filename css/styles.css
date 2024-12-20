@@ -1,0 +1,144 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 16px;
+}
+
+.profile-icon {
+    margin: 4px 16px;
+}
+
+.menu-icon {
+    font-size: 48px;
+    margin: 4px 16px;
+}
+
+.back {
+    font-size: 48px;
+    margin: 4px 16px;
+}
+
+.mainPage {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.search-container {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.search-container button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.lab-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.lab {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: black;
+}
+
+.lab:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #333; 
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 16px 0px;
+    vertical-align: middle;
+  }
+
+.container {
+    display: block;
+    unicode-bidi: isolate;
+    background-color: #dadada;
+    border-left: 8px solid #333;
+    text-indent: 20px;
+    padding: 8px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+    
+    width: 256px;
+    height: 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 16px 16px;
+    vertical-align: middle;
+}
+
+.headerText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    font-style: normal;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.footerText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    font-style: normal;
+    vertical-align: middle;
+    text-align: center;
+}

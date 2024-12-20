@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Каталог продуктов, ЛР6-7</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+    <meta name="keywords" content="Инструментальные средства программирования, лабораторные работы, студенческие работы">
+    <meta name="description" content="Здесь представлена работа номер 6 по ИСП">
+    <meta name="author" content="Скорых И. А.">
+    <link rel="stylesheet" href="css/catalog.css">
+    <script src="js/script2.js"></script>
+</head>
+<header>
+    <div class="menu-icon">
+        <span class="back">←</span>
+    </div>
+    <div class="headerText">
+        ЛР Скорых И.А. по "Инструментальные средства программирования"
+    </div>
+    <div class="profile-icon">
+        <img class="profile" src="images/profile.png" alt="Профиль">
+    </div>
+</header>
+<body>
+    <div class="breadcrumb-container">
+        <nav class="breadcrumb">
+          <a href="#">Главная</a> / <a href="#">Товары</a>
+        </nav>
+        <h1 class="title">Каталог товаров</h1>
+        <div class="divider"></div>
+        <div class="filter-section">
+            <span>Фильтры</span>
+            <div class="filters">
+              <select>
+                <option>Размер</option>
+              </select>
+              <select>
+                <option>Цвет</option>
+              </select>
+              <select>
+                <option>Цена</option>
+              </select>
+              <select>
+                <option>Тип</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+        <form class="add-product-form">
+            <input type="text" id="productTitle" placeholder="Название товара">
+            <textarea id="productDescription" placeholder="Описание"></textarea>
+            <input type="number" id="productPrice" placeholder="Цена">
+            <button id="addProduct">Добавить товар</button>
+        </form>
+    <div class="search-container">
+        <div><input type="text" id="search-input" placeholder="Введите запрос" />
+        <button id="searchButton">Поиск</button></div>
+    </div>
+    <div class="catalog" id="catalog"></div>
+    <footer>
+        <div class="footerText">test@mail.com | Телефон</div>
+    </footer>
+</body>
+</html>

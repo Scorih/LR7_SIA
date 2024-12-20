@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Текстовый квест</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+    <meta name="keywords" content="Инструментальные средства программирования, лабораторные работы, текстовый квест, студенческие работы">
+    <meta name="description" content="Здесь представлена работа номер 5 по ИСП">
+    <meta name="author" content="Скорых И. А.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/visualNov.css">
+    <script src="js/script1.js"></script>
+</head>
+<body>
+    <header>
+        <div class="menu-icon">
+            <span class="back">←</span>
+        </div>
+        <div class="headerText">
+            ЛР Скорых И.А. по "Инструментальные средства программирования"
+        </div>
+        <div class="profile-icon">
+            <img class="profile" src="images/profile.png" alt="Профиль">
+        </div>
+    </header>
+    <div class="mainContainer">
+        <p class="GD" id="gameDescription">Вы — лаборант, только недавно приступивший к работе в секретном исследовательском комплексе, 
+            который находится вблизи одной из веток метро. Жизнь текла размеренно, до того момента, как всё пошло наперекосяк. 
+            Поверхность внезапно охватила неведомая катастрофа. Земля содрогнулась, как от далёкого взрыва, и следом отключился основной свет. 
+            Пронзительный вой сигнализации и хаотичные вспышки аварийных ламп стали последним, что вы помните. 
+            Очнувшись, вы обнаруживаете себя в тёмном коридоре, окружённом тишиной, нарушаемой лишь вашим дыханием. 
+            Голова тяжело гудит, сознание мутное, и вы чувствуете холод, который пробирает до костей. 
+            Острая боль в ноге напоминает о полученной травме — рана кровоточила, но теперь нога словно онемела. 
+            Вы точно знаете: вокруг что-то изменилось, и нужно действовать, если хотите понять, что случилось и как выбраться из этого мрака.</p>
+        <div class="RB" id="restartButtonContainer">
+            <button class="HBR" onclick="restartGame()">Перезапуск</button>
+        </div>
+        <div class="S" id="story"><p>Нажмите "Начать игру", чтобы начать игру.</p></div>
+        <div class="A" id="actions">
+            <button class="SB" id="startButton" onclick="startGame()">Начать игру</button>
+        </div>
+        <div class="C" id="consequence"></div>
+        <div class="NC" id="nextContainerButton">
+            <button class="NB" id="nextButton" onclick="displayStory()">Далее</button>
+        </div>
+      </div>
+    <footer>
+        <div class="footerText">test@mail.com | Телефон</div>
+    </footer>
+</body>
+</html>
